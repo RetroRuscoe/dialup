@@ -51,13 +51,13 @@ A functional home dial-up network.
 
 Add the following configuration by running `sudo minicom -s`
 
-| Command | Description |
-| ------- | ----------- |
-| AT&D0 | Ignore DTR signal changes. Prevents disconnects when Linux software opens/closes the serial port. |
-| AT&K0 | Disable modem compression/flow-control features that interfere with PPP over ATA links. |
-| ATE0 | Disable command echo. Prevents PPP loopback/echo problems. |
-| ATQ0 | Enable modem result codes (CONNECT, RING, etc.). |
-| ATV1 | Use verbose text responses instead of numeric codes. |
-| AT%C0 | Disable data compression. Important for stable modem-over-VoIP operation. |
-| ATS0=1 | Auto-answer after one ring. |
-| AT&W | Save the configuration permanently in modem memory. |
+| Command | Description                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------- |
+| AT&D0   | Ignore DTR signal changes. Prevents disconnects when Linux software opens/closes the serial port. |
+| AT&K0   | Disable modem compression/flow-control features that interfere with PPP over ATA links.           |
+| ATE0    | Disable command echo. Prevents PPP loopback/echo problems.                                        |
+| ATQ0    | Enable modem result codes (CONNECT, RING, etc.).                                                  |
+| ATV1    | Use verbose text responses instead of numeric codes.                                              |
+| AT%C0   | Disable data compression. Important for stable modem-over-VoIP operation.                         |
+| ATS0=1  | Auto-answer after one ring.                                                                       |
+| AT&W    | Save the configuration permanently in modem memory.                                               |
