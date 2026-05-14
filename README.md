@@ -51,6 +51,8 @@ A functional home dial-up network.
 
 Add the following configuration by running `sudo minicom -s`
 
+| Command | Description |
+| ------- | ----------- |
 | AT&D0 | Ignore DTR signal changes. Prevents disconnects when Linux software opens/closes the serial port. |
 | AT&K0 | Disable modem compression/flow-control features that interfere with PPP over ATA links. |
 | ATE0 | Disable command echo. Prevents PPP loopback/echo problems. |
