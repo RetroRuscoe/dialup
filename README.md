@@ -2,6 +2,8 @@
 
 A functional home dial-up network.
 
+<img width="1597" height="890" alt="Dial-up Network" src="https://github.com/user-attachments/assets/9f2d316e-cbfa-461c-afa5-109bdd86f676" />
+
 ## Hardware Used
 
 * Palm III
